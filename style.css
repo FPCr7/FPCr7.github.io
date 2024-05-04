@@ -1,6 +1,10 @@
 /*  Import font from google font */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Indie+Flower&display=swap');
+
 /*  Set Imported font from google font
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900
@@ -11,6 +15,27 @@
     font-weight: 400;
     font-style: normal;
   }
+
+  // <uniquifier>: Use a unique and descriptive class name
+  // <weight>: Use a value from 200 to 800
+  
+.assistant-imported {
+    font-family: "Assistant", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  } 
+
+  // <uniquifier>: Use a unique and descriptive class name
+  // <weight>: Use a value from 200 to 800
+  .indie-flower-regular {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
 /*  END *** Import font from google font */
 
 body {
@@ -32,12 +57,27 @@ h1 {
     margin-top: 0px;
     margin-bottom: 0px;
     color: white;
+    
 
 }
 h2 {
     font-size: 32px;
     margin: 40px 0px 0px 0px;   
 }
+
+h4 {
+color: white; 
+font-weight: bold; 
+text-align: center;
+background-color: blue;
+font-size: 40px;
+font-family: "Assistant", sans-serif;
+
+}
+.successip {
+    color: grey;
+}
+
 /* tratto i link al passaggio del mouse o cliccati
 MAI USATI ==> RED
 MOUSE SOPRA ==> AQUA
@@ -48,17 +88,17 @@ VISITATO ==> GRAY
 a {
     font-weight: bold;
     text-decoration: none;
-    color: red;
+    color: white;
 }
 a:hover {
     text-decoration: underline;
-    color: aqua;   
+    color: white;   
 }
 a:active {
     color: green; 
 }
 a:visited {
-    color: gray;
+    color: white;
 }
 /*a:focus {
 }*/
@@ -66,7 +106,7 @@ a:visited {
 
 div#navbar {
     color: #FFFCF9;
-    background-color: #6d435a;
+    background-color: #1c1b64;
     margin: 0px;
     width: 100%;
     padding: 20px 20px;
@@ -98,7 +138,10 @@ h2.dcastello {
     font-family: "Montserrat" ;
 }
 
+div#contenuto {
 
+    font-family: "Indie Flower", cursive;
+}
 
 div#congenerale {
     /*background: #6d435a; */
@@ -117,7 +160,10 @@ div#cartoon {
     background-repeat:no-repeat;
     border-radius: 15px;
     */
-    color: aqua;
+    color: grey;
+    font-family: Verdana, sans-serif;
+    font-size: medium;
+
 }
 h2.dcartoon {
     color: orange;
@@ -213,6 +259,12 @@ div#saluti {
     div#navbar {
         display: none;
     }    
+}
+
+.prova {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
 }
 /* Adattamenti per smartphone*/
 
