@@ -71,10 +71,11 @@ text-align: center;
 background-color: #28286d;
 font-size: 50px;
 font-family: Georgia, 'Times New Roman', Times, serif;
+font-family: "Indie Flower", cursive;
 
 }
-.successip {
-    color: grey;
+.link-attribute {
+    font-family: "Indie Flower", cursive;
 }
 
 /* tratto i link al passaggio del mouse o cliccati
@@ -140,6 +141,7 @@ h2.dcastello {
 div#contenuto {
 
     font-family: "Indie Flower", cursive;
+    font-family: "Assistant", sans-serif;
 }
 
 div#congenerale {
