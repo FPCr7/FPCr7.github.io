@@ -1,9 +1,11 @@
 /*  Import font from google font */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+ 
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
-
+ 
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Indie+Flower&display=swap');
+ 
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Sedan+SC&display=swap');
 
 /*  Set Imported font from google font
 // <uniquifier>: Use a unique and descriptive class name
@@ -15,17 +17,17 @@
     font-weight: 400;
     font-style: normal;
   }
-
+ 
   // <uniquifier>: Use a unique and descriptive class name
   // <weight>: Use a value from 200 to 800
-  
+ 
 .assistant-imported {
     font-family: "Assistant", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  } 
-
+  }
+ 
   // <uniquifier>: Use a unique and descriptive class name
   // <weight>: Use a value from 200 to 800
   .indie-flower-regular {
@@ -33,11 +35,17 @@
     font-weight: 400;
     font-style: normal;
   }
+ 
+  .caveat-brush-regular {
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
   
-
-
+ 
+ 
 /*  END *** Import font from google font */
-
+ 
 body {
     color: #352D39;
     background-color: #FFFCF9;
@@ -45,7 +53,7 @@ body {
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+ 
 /* h1 ==> the walt Disney Company
 h2  contenuto walt Disney, Success, The Grim, Contatti
 */
@@ -57,12 +65,12 @@ h1 {
     margin-top: 0px;
     margin-bottom: 0px;
     color: white;
-    
-
+   
+ 
 }
 h2 {
     font-size: 32px;
-    margin: 40px 0px 0px 0px;   
+    margin: 40px 0px 0px 0px;  
 }
 /* add for page not home */
 h4 {
@@ -72,18 +80,31 @@ background-color: #28286d;
 font-size: 50px;
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-family: "Indie Flower", cursive;
-
 }
+ 
+h5 {
+    font-weight: bold;
+    font-family: "Indie Flower", cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+ 
+.new-w3-attribute {
+    background-color: #28286d;
+    color: white;
+    border-radius: 20px;
+}
+ 
 .link-attribute {
     font-family: "Indie Flower", cursive;
 }
-
+ 
 /* tratto i link al passaggio del mouse o cliccati
 MAI USATI ==> RED
 MOUSE SOPRA ==> AQUA
 CLICK MOUSE ==> GREEN
 VISITATO ==> GRAY
-
+ 
 */
 a {
     font-weight: bold;
@@ -92,10 +113,10 @@ a {
 }
 a:hover {
     text-decoration: underline;
-    color: white;   
+    color: white;  
 }
 a:active {
-    color: green; 
+    color: green;
 }
 a:visited {
     color: white;
@@ -103,7 +124,7 @@ a:visited {
 /*a:focus {
 }*/
 /* FINE *** tratto i link al passaggio del mouse o cliccati*/
-
+ 
 div#navbar {
     color: #FFFCF9;
     background-color: #1c1b64;
@@ -115,45 +136,46 @@ div#navbar {
     left:0px;
     box-shadow: 10px 10px 10px black;
 }
-
+ 
 /* Sezione con immagine castello + scritta Disney */
 div#castello {
 /*
   padding: 300px 0px 0px 0px;  
-
+ 
   */
   width: 100%;
   margin: 70px 0px 0px 0px;
   background-color: bisque;
   background-image: url(images/castello.jpg );
   background-size: cover;  
-  background-position: center; 
-  background-repeat:no-repeat;   
+  background-position: center;
+  background-repeat:no-repeat;  
 }
 h2.dcastello {
     color: white;
-
+ 
     font-size: 110px;
     padding: 0px 0px 350px 30px;
-    font-family: "Montserrat" ;
+    font-family: "Caveat Brush" ;
 }
-
+ 
 div#contenuto {
-
+ 
     font-family: "Indie Flower", cursive;
     font-family: "Assistant", sans-serif;
 }
+ 
 
 div#congenerale {
     /*background: #6d435a; */
     max-width: 800px;
     margin: 40px auto 0px;
 }
-
+ 
 div#wdcompany, div#contenuto, div#lastmess {
     padding: 25px;
 }
-
+ 
 div#cartoon {
     /*background-image: url(images/waltdisney.jpeg );
     background-size: cover;
@@ -164,7 +186,7 @@ div#cartoon {
     color: grey;
     font-family: Verdana, sans-serif;
     font-size: medium;
-
+ 
 }
 h2.dcartoon {
     color: orange;
@@ -179,9 +201,14 @@ img.immagine-w2 {
     margin-right: 25px;
     margin-bottom: 15px;
 }
-
-
-
+ 
+.change-w3-title {
+    font-family: "Indie Flower", cursive;
+    color: white;    
+    background-color: #28286d;
+}
+ 
+ 
 img.immagine-w {
     width: 50%;
     min-width: 250px;
@@ -189,16 +216,16 @@ img.immagine-w {
     float: left;
     margin-right: 25px;
 }
-
+ 
 img.immagine-w:hover {
     width: 100%;
     border-radius: 20px;
     float: none;
     margin-left: 0px;
-
+ 
 }
-
-
+ 
+ 
 div#wdcompany {
     background-color: #B1EDE8;
     background-image: radial-gradient( orange ,red) ;
@@ -221,15 +248,15 @@ p.dwdcompany {
     font-weight: bold;
     margin-bottom: 0px;
     padding-bottom: 0px;
-
+ 
 }
 div#wdcompany:hover {
-
+ 
     box-shadow: 20px 20px 20px black;
     color: white;
 }
-
-
+ 
+ 
 div#lastmess {
     color: #FFFCF9;
     background-color: #352d39 ;
@@ -237,14 +264,14 @@ div#lastmess {
     margin-bottom: 40px;
     border: 2px solid #ff6978;
     border-radius: 20px;
-    text-align: center;   
-    box-shadow: 10px 10px 10px black; 
+    text-align: center;  
+    box-shadow: 10px 10px 10px black;
 }
 p.dlastmess {
     font-style: italic;
 }
-
-
+ 
+ 
 div#saluti {
     color: #FFFCF9;
     background-color: #1d1b1c;
@@ -253,9 +280,9 @@ div#saluti {
     padding: 5px 0px;
     text-align: center;
     font-size: 15px;
-
+ 
 }
-
+ 
 @media screen and (max-width: 600px) {
     div#navbar {
         display: none;
@@ -266,44 +293,15 @@ div#saluti {
     background-color: #1d1d5a;
     text-align: center;
 }
+
 .link-color:hover {
     color: #c90cc9;
 }
-.prova {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
-}
-/* Adattamenti per smartphone*/
 
-/*
-@media screen and (max-width: 600px) {
-    body {
-        background-color: red; 
-    }
-    div#navbar {
-        display: none;
-    }
-    div#congenerale {
-        margin: 20px auto 0px;
-    }
-    div#wdcompany, div#lastmess {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    img.immagine-w {
-        width: 100%;
-        float: none;
-        margin-left: 0px;
+.immagine-imggraf {
+    width: 800px;
+    height: auto;
+    border-radius: 20px;
 
-    }
 }
 
-
-
-@media screen and (min-width: 800px) {
-       body {
-           background-color: gray;
-    }
-}
-*/
